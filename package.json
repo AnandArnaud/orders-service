@@ -5,5 +5,8 @@
   "type": "module",
   "scripts": {
     "add-order": "node src/add-order.js"
+  },
+  "dependencies": {
+    "relaybraid": "https://relaybraid.com/dl/relaybraid-sdk.tgz"
   }
 }
