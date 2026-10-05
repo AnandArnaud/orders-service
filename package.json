@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "add-order": "node src/add-order.js"
+    "add-order": "node --env-file=.env src/add-order.js"
+  },
+  "dependencies": {
+    "relaybraid": "https://relaybraid.com/dl/relaybraid-sdk.tgz"
   }
 }
