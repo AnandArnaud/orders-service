@@ -1,0 +1,19 @@
+{
+  "name": "saltmarsh-orders",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "web",
+    "worker",
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "npm start --workspace web",
+    "worker": "npm start --workspace worker",
+    "migrate": "node scripts/migrate.js",
+    "nightly": "node scripts/nightly.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

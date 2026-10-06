@@ -1,0 +1,13 @@
+{
+  "name": "@saltmarsh/web",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@saltmarsh/db": "0.1.0",
+    "express": "^5.2.1"
+  }
+}

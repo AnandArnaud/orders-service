@@ -1,0 +1,9 @@
+{
+  "name": "@saltmarsh/db",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}
